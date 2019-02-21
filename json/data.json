@@ -1,0 +1,46 @@
+{
+    "product" : [
+        {
+            "id": 1,
+            "name": "T-Shirt T-Shirt Kodak",
+            "brand": "Kodak",
+            "src1": "img/collection/img1_1.jpg",
+            "src2": "img/collection/img1_2.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Tim Burton",
+            "brand": "Movies",
+            "src1": "img/collection/img2_1.jpg",
+            "src2": "img/collection/img2_2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "T-Shirt Coca-Cola",
+            "brand": "Coca-Cola",
+            "src1": "img/collection/img3_1.jpg",
+            "src2": "img/collection/img3_2.jpg"
+        },
+        {
+            "id": 4,
+            "name": "T-Shirt Kodak",
+            "brand": "Kodak",
+            "src1": "img/collection/img4_1.jpg",
+            "src2": "img/collection/img4_2.jpg"
+        }
+    ],
+    "brand" : [
+        {  "id": 1, "name": "Jurassic Park" },
+        {  "id": 2, "name": "Coca-Cola" },
+        {  "id": 3, "name": "Marvel" },
+        {  "id": 4, "name": "Maui" },
+        {   "id": 5, "name": "Looney Tunes" },
+        {   "id": 6, "name": "Movies" },
+        {   "id": 7, "name": "Video Games" },
+        {   "id": 8, "name": "Kodak" },
+        {   "id": 9, "name": "Disney" },
+        {   "id": 10, "name": "Lego" },
+        {   "id": 11, "name": "Pop Culture" },
+        {   "id": 12, "name": "Rock" }
+    ]
+}

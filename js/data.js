@@ -1,7 +1,5 @@
 $(function (){
 
-    console.log('JSON data');
-
     var $productList = $('#productList');
     var $brandList = $('#brandList');
 
@@ -15,16 +13,14 @@ $(function (){
             var product = response.product;      // <= going inside the data itself
 
             $.each(product, function(i, product){
-                $productList.append('<div class="col-6 ' + product.brand + '"><img class="product img-fluid" src="'+ product.src1 +'" alt=""><h3>' + product.name + '</h3><p class="price"></p><p class="text"></p></div>');
+                $productList.append('<div data-pricing="" data-popularity="" class="col-6 ' + product.brand + '"><img class="product img-fluid" src="'+ product.src1 +'" alt=""><h3>' + product.name + '</h3><p class="price" data-pricing="" ></p><p class=" pop"></p><p class="text"></p></div>');
             });
 
             $.each(brand, function(i, brand){
-                console.log('yooooo');
                 $brandList.append('<div class="col ' + brand.name + '"><img class="img-fluid" src="img/brands/logos/logo' + brand.id + '.png" alt=""></div>');
             });
 
-            // Changing Product Image, on hover
-
+            // Change Product Image on Hover
 
             $("img")
                 .mouseover(function() {
@@ -36,19 +32,42 @@ $(function (){
                     $(this).attr("src", src);
                 });
 
-            // Generate a random number for product price
+
+            // Generate a random price and popularity index for product divs
 
             function getRandomInt(min, max) {
 
+
+                // Generate a random price per product div
                     $('.price').each(function() {
-                            $(this).append( (Math.random() * (max - min) + min).toFixed(2) + ' €' ) ;
+
+                        var randomInt = ( Math.random() * (max - min) + min ).toFixed( 2 )  ;
+
+                        $(this).append( randomInt + ' €' ) ; // <= display  a random number for product price
+
+                        $(this).attr("data-pricing", randomInt); // <= populate 'data-pricing' attribute with same random integer
+
+                        $(this).parent('div').attr("data-pricing", randomInt); // <= populate 'data-pricing' attribute with same random integer
+
+                        // return randomInt;
+
+                    });
+
+                // Generate a random popularity score per product div
+                    $('div').each(function() {
+
+                            var randomPop = Math.floor(Math.random() * (150 - 100) + 100)  ;
+
+                            $(this).attr("data-popularity", randomPop); // <= populate 'data-popularity' attribute with same random integer
+
+                            $(this).children('.pop').append('popularity score  ' + randomPop);
                     });
 
             }; // END function getRandomInt
 
             return getRandomInt(4,15);
 
-        }
+        } // end JSON query
     }); // End AJAX call
 
 }); // END

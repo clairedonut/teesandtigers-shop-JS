@@ -38,51 +38,30 @@
         <main id="app"  class="container-fluid">
 
             <!-- page description text -->
-            <section class="row">
+            <section class="row flex-column">
                 <h2 class="col-8 mx-auto text-center small">
                     {{ introduction }}
                 </h2>
-            </section>
 
-            <section id="productList" class="d-flex flex-wrap">
+                <aside class="col mb-5 d-flex">
+                    <p>Trier par: </p>
+                    <div id="sort" class="ml-5">
+                        <span class="badge badge-pill badge-light random">Random</span>
+                        <span class="badge badge-pill badge-light popular">Popularité</span>
+                        <span class="badge badge-pill badge-light price-low">Prix Croissant</span>
+                        <span class="badge badge-pill badge-light price-high">Prix Décroissant</span>
+                    </div>
+
+                </aside>
 
             </section>
 
             <!-- product catalogue -->
-            <article class="catalogue row mt-5">
+            <section id="productList" class="d-flex flex-wrap">
 
-                <!-- <div class="col-6">
-                    <img class="product img-fluid" src="img/collection/img1_1.jpg" alt="">
-                    <h3 v-for="">Kodak T-Shirt</h3>
-                    <p class="price"></p>
-                </div>
-                <div class="col-6">
-                    <img class="product img-fluid" src="img/collection/img2_1.jpg" alt="">
-                    <h3 v-for="">Tim Burton Shirt</h3>
-                    <p class="price"></p>
-                </div>
-
-                <div class="col-6">
-                    <img class="product img-fluid" src="img/collection/img3_1.jpg" alt="">
-                    <h3 v-for="">CocaCola Shirt</h3>
-                    <p class="price"></p>
-                </div>
-                <div class="col-6">
-                    <img class="product img-fluid" src="img/collection/img4_1.jpg" alt="">
-                    <h3 v-for="">Kodak T-Shirt</h3>
-                    <p class="price"></p>
-                </div> -->
+            </section>
 
 
-            </article>
-
-
-            <article class="">
-            </article>
-
-            <!-- <li v-for="brand in brands">
-              {{ brand.name }}
-            </li> -->
         </main>
 
         <footer>
@@ -111,8 +90,8 @@
         <!-- <script src="js/plugins.js"></script> -->
 
         <script type="text/javascript" src="json/data.json"></script>
-        <script src="js/main.js"></script>
         <script src="js/data.js"></script>
+        <script src="js/main.js"></script>
         <script src="js/vue.js"></script>
 
 

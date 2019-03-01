@@ -73,4 +73,8 @@ $(function(){
         }); // End of ranking function
 
 
+// Display and Hide  product divs by random sort / popularity / low to high price / high to low price
+
+
+
 }) // END

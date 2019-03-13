@@ -1,0 +1,493 @@
+/* Custom Fonts */
+
+@font-face {
+	font-family: "Hanken Grotesk";
+	src: url("../css/HankenGrotesk/HankenGrotesk-Light.eot");
+	src: url("../css/HankenGrotesk/HankenGrotesk-Light.otf");
+	src: url("../css/HankenGrotesk/HankenGrotesk-Light.ttf");
+	src: url("../css/HankenGrotesk/HankenGrotesk-Light.woff");
+	src: url("../css/HankenGrotesk/HankenGrotesk-Light.woff2");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Hanken Grotesk";
+	src: url("../css/HankenGrotesk/HankenGrotesk-Regular.eot");
+	src: url("../css/HankenGrotesk/HankenGrotesk-Regular.otf");
+	src: url("../css/HankenGrotesk/HankenGrotesk-Regular.ttf");
+	src: url("../css/HankenGrotesk/HankenGrotesk-Regular.woff");
+	src: url("../css/HankenGrotesk/HankenGrotesk-Regular.woff2");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Hanken Grotesk";
+	src: url("../css/HankenGrotesk/HankenGrotesk-SemiBold.eot");
+	src: url("../css/HankenGrotesk/HankenGrotesk-SemiBold.otf");
+	src: url("../css/HankenGrotesk/HankenGrotesk-SemiBold.ttf");
+	src: url("../css/HankenGrotesk/HankenGrotesk-SemiBold.woff");
+	src: url("../css/HankenGrotesk/HankenGrotesk-SemiBold.woff2");
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Hanken Grotesk";
+	src: url("../css/HankenGrotesk/HankenGrotesk-Bold.eot");
+	src: url("../css/HankenGrotesk/HankenGrotesk-Bold.otf");
+	src: url("../css/HankenGrotesk/HankenGrotesk-Bold.ttf");
+	src: url("../css/HankenGrotesk/HankenGrotesk-Bold.woff");
+	src: url("../css/HankenGrotesk/HankenGrotesk-Bold.woff2");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Hanken Grotesk";
+	src: url("../css/HankenGrotesk/HankenGrotesk-Black.eot");
+	src: url("../css/HankenGrotesk/HankenGrotesk-Black.otf");
+	src: url("../css/HankenGrotesk/HankenGrotesk-Black.ttf");
+	src: url("../css/HankenGrotesk/HankenGrotesk-Black.woff");
+	src: url("../css/HankenGrotesk/HankenGrotesk-Black.woff2");
+	font-weight: 900;
+}
+
+/* -------- fonts ------------------------------------------------ */
+
+h1, h2, h3, h4, p, input {
+	font-family: "Hanken Grotesk";
+	color: #313131;
+
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 1.6em;
+	letter-spacing: -0.05em;
+	font-weight: 600;
+	text-align: center;
+}
+
+h3, p {
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+input {
+	font-size: 11px;
+	letter-spacing: 2px;
+	padding-bottom: 0.2em;
+}
+
+#sort span {
+	font-size: 12px;
+	padding: 0 0.5em;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+#productList h3, #productList p {
+	font-size: 11px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+#productList h3 {
+	font-weight: 700;
+}
+
+#productList p {
+	font-weight: 800;
+}
+
+#productList select, #productList option, #productList button  {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+
+footer h4, footer a, footer p {
+	font-size: 12px;
+	font-weight: 600;
+}
+
+#footerContact h4, #footerContact p {
+	padding-top: 4em ;
+}
+
+
+#footerContact h4 , #footerNav h4{
+	font-weight: 900;
+}
+
+#footerNav h4{
+	padding-bottom: 2em;
+}
+
+
+
+/* -------- header ------------------------------------------------ */
+
+header {
+	background-color: rgb(255, 255, 255) ;
+	/* padding: 0.8em 1.5em ; */
+}
+
+
+/* -------- navigation bar -------- */
+
+nav {
+	margin: 0 2em;
+}
+
+/* -------- in nav menu -------- */
+
+#nav aside {
+	padding: 1em;
+}
+
+#navLinks div a h4:hover {
+ text-decoration: none;
+ font-weight: 700;
+}
+
+#navLinks div a:hover {
+ text-decoration: none;
+ font-weight: 700;
+}
+
+/* input search */
+
+input {
+	border: 0;
+	border-bottom: 1px solid black;
+	margin: 0 0.5em ;
+	max-width: 100px;
+}
+
+.input-search {
+	margin: 0 2em;
+}
+
+.input-search i {
+	margin-top: 5px;
+}
+
+/* shopping cart */
+
+#numberItems {
+	min-height: 20px;
+	margin-bottom: 0;
+}
+
+/* -------- main ------------------------------------------------ */
+
+
+
+
+
+/* -------- branding :row of logos -------- */
+
+#brandList {
+	overflow: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: nowrap;
+	    flex-wrap: nowrap;
+}
+
+#brandList img {
+	max-width: 90px;
+	max-height: auto;
+	cursor: pointer;
+	padding: .9em;
+}
+
+#brandList div {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-top-width: 0px;
+  border-left-width: 0px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+#brandList div:hover {
+
+	border: 1px solid black;
+}
+
+
+
+/* -------- branding :text description -------- */
+
+#brandDescription {
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: .4px;
+	line-height: 24px;
+	text-transform: none;
+	text-align: center;
+	margin: 5em auto;
+}
+
+/* -------- product list : sorting options -------- */
+
+#sort {
+	overflow: auto;
+	-ms-flex-wrap: nowrap;
+	    flex-wrap: nowrap;
+}
+
+#sort p {
+	min-width: 60px;
+}
+
+#sort span:hover {
+	border-bottom: 2px solid rgb(49, 173, 166);
+	font-weight: 600;
+}
+
+
+
+/* -------- product list -------- */
+
+#productList div {
+	/* margin-top: 1.5em; */
+}
+
+
+#productList .info {
+	border: 1px solid rgb(102, 102, 102);
+	margin-bottom: 1.5em;
+}
+
+.info {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+
+#productList h3 {
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+
+#productList button {
+	color: white;
+	background-color: rgb(52, 52, 52);
+}
+
+.float {
+	width:50%;
+	float: left;
+	margin: 0.5em 0;
+}
+
+/* -------- product sizes: select and option menu -------- */
+
+option {
+	background-color: white;
+}
+
+button, select {
+	border:0;
+	background: none;
+	font-size: 10px;
+	width: 50%;
+}
+
+
+/* -------- footer ------------------------------------------------ */
+
+footer section {
+	margin: 4em 1em ;
+}
+
+.footerSubcategory {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.footerSubcategory a {
+	color: #484848;
+	padding: 1em 0 ;
+}
+
+.footerSubcategory i {
+	margin-right: 1em;
+}
+
+.footerSubcategory a:hover, .footerSubcategory i:hover {
+	text-decoration: none;
+	color: #00B2A9;
+}
+
+/* -------- footer area with contact info -------- */
+
+
+#footerContact {
+	padding-bottom: 3em;
+	border-bottom: 1px solid lightgrey;
+}
+
+#footerNav h4 {
+	padding: 1em 0.5em;
+	margin-bottom: 2em;
+}
+
+#footerNav a:hover {
+	text-decoration: none;
+}
+
+/* stylish underline on hover */
+
+#footerContact div aside {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+#footerContact a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+#footerContact a:hover{
+  color: #000;
+}
+
+#footerContact a:before {
+	width: 100%;
+}
+
+#footerNav .footerCategory a:before {
+	width: 50%;
+	min-width: 150px;
+}
+
+#footerContact a:before, #footerNav .footerCategory a:before  {
+  content: "";
+  position: absolute;
+  /* width: 100%; */
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+      transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#footerContact a:hover:before, #footerNav .footerCategory a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+      transform: scaleX(1);
+}
+
+/* -------- footer area with nav links -------- */
+
+#footerNav div:nth-child(4) .footerSubcategory div, #footerNav div:nth-child(5) .footerSubcategory div {
+	display: -webkit-box !important;
+	display: -ms-flexbox !important;
+	display: flex !important;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: start;
+	-webkit-box-align: baseline;
+	    -ms-flex-align: baseline;
+	        align-items: baseline;
+}
+
+#footerNav i {
+	padding-left: 0;
+}
+
+/* -------- media queries ------------------------------------------------ */
+
+/* -------- mobile & down // Small devices (landscape phones, 576px and down) -------- */
+
+@media only screen and (max-width: 575.98px) {
+
+	h1 {
+		font-size: 1.2em;
+		letter-spacing: -0.05em;
+	}
+
+	.input-search, .input-search input, .input-search i, .easy-autocomplete {
+		display: none;
+	}
+
+	#footerNav div {
+		margin-top: 1em;
+	}
+
+}
+
+/* -------- tablet & up // Med devices (landscape phones, 576px and up) -------- */
+
+@media only screen and (min-width: 576px) {
+
+	.input-search, .input-search input, .input-search i, .easy-autocomplete {
+		display: block;
+	}
+
+	#brandList div {
+		padding: 1em 0;
+	}
+
+	#footerContact div aside {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+
+	#footerContact div aside a:nth-child(2) {
+		margin: 0 2em;
+	}
+
+}

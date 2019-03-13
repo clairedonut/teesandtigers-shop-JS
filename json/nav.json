@@ -1,0 +1,70 @@
+{
+  "nav" : [
+    {
+      "femme" : [
+        {
+          "category" : "Nouveautés",
+          "url" : "#"
+        },
+        {
+          "category" : "Vêtements",
+          "url" : "#",
+          "subcategory" : [
+            { "name" : "Manteaux et blousons" , "url" : "#" },
+            { "name" : "Sweat" , "url" : "#" },
+            { "name" : "Maille" , "url" : "#" },
+            { "name" : "T-shirts" , "url" : "#" },
+            { "name" : "Chemises" , "url" : "#" },
+            { "name" : "Pantalons" , "url" : "#" },
+            { "name" : "Jeans" , "url" : "#" }
+          ]
+        },
+        {
+          "category" : "Chaussures",
+          "url" : "#"
+        },
+        {
+          "category" : "Accesoires",
+          "url" : "#"
+        },
+        {
+          "category" : "Petit prix",
+          "url" : "#"
+        }
+      ]
+    },
+    {
+      "homme" : [
+        {
+          "category" : "Nouveautés",
+          "url" : "#"
+        },
+        {
+          "category" : "Vêtements",
+          "url" : "#",
+          "subcategory" : [
+            { "name" : "Manteaux et blousons" , "url" : "#" },
+            { "name" : "Sweat" , "url" : "#" },
+            { "name" : "Maille" , "url" : "#" },
+            { "name" : "T-shirts" , "url" : "#" },
+            { "name" : "Chemises" , "url" : "#" },
+            { "name" : "Pantalons" , "url" : "#" },
+            { "name" : "Jeans" , "url" : "#" }
+          ]
+        },
+        {
+          "category" : "Chaussures",
+          "url" : "#"
+        },
+        {
+          "category" : "Accesoires",
+          "url" : "#"
+        },
+        {
+          "category" : "Petit prix",
+          "url" : "#"
+        }
+      ]
+    }
+  ]
+}

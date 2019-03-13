@@ -1,0 +1,62 @@
+{
+  "footer" : [
+    {
+      "category" : "Guide d'achat",
+      "url": "#",
+      "subcategory" : [
+        { "name" : "Question fréquentes" , "url" : "#"},
+        { "name" : "Paiement" , "url" : "#"},
+        { "name" : "Envoi" , "url" : "#"},
+        { "name" : "Retour" , "url" : "#"},
+        { "name" : "échanges" , "url" : "#"},
+        { "name" : "Ticket cadeau" , "url" : "#"}
+      ]
+    },
+    {
+      "category" : "Entreprise",
+      "url": "#",
+      "subcategory" : [
+        { "name" : "Qui sommes-nous" , "url" : "#"},
+        { "name" : "Bureaux" , "url" : "#"},
+        { "name" : "Magasins" , "url" : "#"},
+        { "name" : "Travaillez avec nous" , "url" : "#"},
+        { "name" : "Franchises" , "url" : "#"},
+        { "name" : "Mentions légales" , "url" : "#"}
+      ]
+    },
+    {
+      "category" : "Politique",
+      "url": "#",
+      "subcategory" : [
+        { "name" : "Politique environnementale" , "url" : "#"},
+        { "name" : "Respect des animaux" , "url" : "#"},
+        { "name" : "Politique de confidentialité" , "url" : "#"},
+        { "name" : "Travaillez avec nous" , "url" : "#"},
+        { "name" : "Politique de cookies" , "url" : "#"},
+        { "name" : "Conditions d'achat" , "url" : "#"}
+      ]
+    },
+    {
+      "category" : "Social",
+      "url": "#",
+      "subcategory" : [
+        { "name" : "Facebook" , "icon" : "fab fa-facebook-f"},
+        { "name" : "Twitter" , "icon" : "fab fa-twitter"},
+        { "name" : "Pinterest" , "icon" : "fab fa-pinterest-p"},
+        { "name" : "Instagram" , "icon" : "fab fa-instagram"},
+        { "name" : "Youtube" , "icon" : "fab fa-youtube"},
+        { "name" : "Spotify" , "icon" : "fab fa-spotify"}
+      ]
+    },
+    {
+      "category" : "Moyens de paiement",
+      "url": "#",
+      "subcategory" : [
+        { "name" : "VISA" , "icon" : "fab fa-cc-visa"},
+        { "name" : "MasterCard" , "icon" : "fab fa-cc-mastercard"},
+        { "name" : "Amex" , "icon" : "fab fa-cc-amex"},
+        { "name" : "Paypal" , "icon" : "fab fa-cc-paypal"}
+      ]
+    }
+  ]
+}

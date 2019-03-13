@@ -2,14 +2,14 @@
     "product" : [
         {
             "id": 1,
-            "name": "T-Shirt T-Shirt Kodak",
+            "name": "T-Shirt Kodak",
             "brand": "Kodak",
             "src1": "img/collection/img1_1.jpg",
             "src2": "img/collection/img1_2.jpg"
         },
         {
             "id": 2,
-            "name": "Tim Burton",
+            "name": "Tim Burton Tee",
             "brand": "Movies",
             "src1": "img/collection/img2_1.jpg",
             "src2": "img/collection/img2_2.jpg"
@@ -17,7 +17,7 @@
         {
             "id": 3,
             "name": "T-Shirt Coca-Cola",
-            "brand": "Coca-Cola",
+            "brand": "CocaCola",
             "src1": "img/collection/img3_1.jpg",
             "src2": "img/collection/img3_2.jpg"
         },
@@ -27,20 +27,313 @@
             "brand": "Kodak",
             "src1": "img/collection/img4_1.jpg",
             "src2": "img/collection/img4_2.jpg"
+        },
+        {
+            "id": 5,
+            "name": "T-Shirt Garfield",
+            "brand": "PopCulture",
+            "src1": "img/collection/img5_1.jpg",
+            "src2": "img/collection/img5_2.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Pull Coca-Cola manches longue",
+            "brand": "CocaCola",
+            "src1": "img/collection/img6_1.jpg",
+            "src2": "img/collection/img6_2.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Tee Koka-Kola",
+            "brand": "CocaCola",
+            "src1": "img/collection/img7_1.jpg",
+            "src2": "img/collection/img7_2.jpg"
+        },
+        {
+            "id": 8,
+            "name": "T-Shirt Marvel",
+            "brand": "Marvel",
+            "src1": "img/collection/img8_1.jpg",
+            "src2": "img/collection/img8_2.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Rolling Stones à Manches Longues",
+            "brand": "Music",
+            "src1": "img/collection/img9_1.jpg",
+            "src2": "img/collection/img9_2.jpg"
+        },
+        {
+            "id": 10,
+            "name": "WuTang Klan",
+            "brand": "Music",
+            "src1": "img/collection/img10_1.jpg",
+            "src2": "img/collection/img8_2.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Garfield Tee",
+            "brand": "PopCulture",
+            "src1": "img/collection/img11_1.jpg",
+            "src2": "img/collection/img11_2.jpg"
+        },
+        {
+            "id": 12,
+            "name": "I'm Britney",
+            "brand": "Music",
+            "src1": "img/collection/img12_1.jpg",
+            "src2": "img/collection/img12_2.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Disney Tee",
+            "brand": "Disney",
+            "src1": "img/collection/img13_1.jpg",
+            "src2": "img/collection/img13_2.jpg"
+        },
+        {
+            "id": 14,
+            "name": "Pantera haut manches courtes",
+            "brand": "Music",
+            "src1": "img/collection/img14_1.jpg",
+            "src2": "img/collection/img14_2.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Top manches courtes Disney",
+            "brand": "Disney",
+            "src1": "img/collection/img15_1.jpg",
+            "src2": "img/collection/img15_2.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Tee Titanic",
+            "brand": "Movies",
+            "src1": "img/collection/img16_1.jpg",
+            "src2": "img/collection/img16_2.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Wutang",
+            "brand": "Music",
+            "src1": "img/collection/img17_1.jpg",
+            "src2": "img/collection/img17_2.jpg"
+        },
+        {
+            "id": 18,
+            "name": "Elite",
+            "brand": "PopCulture",
+            "src1": "img/collection/img18_1.jpg",
+            "src2": "img/collection/img18_2.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Rolling Stones t-Shirt",
+            "brand": "Music",
+            "src1": "img/collection/img19_1.jpg",
+            "src2": "img/collection/img19_2.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Haut à Manches Longues Kodak",
+            "brand": "Kodak",
+            "src1": "img/collection/img20_1.jpg",
+            "src2": "img/collection/img20_2.jpg"
+        },
+        {
+            "id": 21,
+            "name": "Ramones Top",
+            "brand": "Music",
+            "src1": "img/collection/img21_1.jpg",
+            "src2": "img/collection/img21_2.jpg"
+        },
+        {
+            "id": 22,
+            "name": "Biggie",
+            "brand": "Music",
+            "src1": "img/collection/img22_1.jpg",
+            "src2": "img/collection/img22_2.jpg"
+        },
+        {
+            "id": 23,
+            "name": "Titanic Tee",
+            "brand": "Movies",
+            "src1": "img/collection/img23_1.jpg",
+            "src2": "img/collection/img23_2.jpg"
+        },
+        {
+            "id": 24,
+            "name": "Who you gonna call? GhostBusters!",
+            "brand": "PopCulture",
+            "src1": "img/collection/img24_1.jpg",
+            "src2": "img/collection/img24_2.jpg"
+        },
+        {
+            "id": 25,
+            "name": "T-Shirt Gremlins",
+            "brand": "PopCulture",
+            "src1": "img/collection/img25_1.jpg",
+            "src2": "img/collection/img25_2.jpg"
+        },
+        {
+            "id": 26,
+            "name": "Back to the Future Shirt",
+            "brand": "PopCulture",
+            "src1": "img/collection/img26_1.jpg",
+            "src2": "img/collection/img26_2.jpg"
+        },
+        {
+            "id": 27,
+            "name": "Hoodie à Capuche Rocky",
+            "brand": "PopCulture",
+            "src1": "img/collection/img27_1.jpg",
+            "src2": "img/collection/img27_2.jpg"
+        },
+        {
+            "id": 28,
+            "name": "T-Shirt Marvel",
+            "brand": "Marvel",
+            "src1": "img/collection/img28_1.jpg",
+            "src2": "img/collection/img28_2.jpg"
+        },
+        {
+            "id": 29,
+            "name": "Haut à Capuche Marvel",
+            "brand": "Marvel",
+            "src1": "img/collection/img29_1.jpg",
+            "src2": "img/collection/img29_2.jpg"
+        },
+        {
+            "id": 30,
+            "name": "Lego T-Shirt Awesome ",
+            "brand": "Lego",
+            "src1": "img/collection/img30_1.jpg",
+            "src2": "img/collection/img30_2.jpg"
+        },
+        {
+            "id": 31,
+            "name": "Big Lebowski Tee",
+            "brand": "Movies",
+            "src1": "img/collection/img31_1.jpg",
+            "src2": "img/collection/img31_2.jpg"
+        },
+        {
+            "id": 32,
+            "name": "TMNT Tee",
+            "brand": "PopCulture",
+            "src1": "img/collection/img32_1.jpg",
+            "src2": "img/collection/img32_2.jpg"
+        },
+        {
+            "id": 33,
+            "name": "Nasa manches courtes",
+            "brand": "PopCulture",
+            "src1": "img/collection/img33_1.jpg",
+            "src2": "img/collection/img33_2.jpg"
+        },
+        {
+            "id": 34,
+            "name": "PlayStation Haut à Capuche",
+            "brand": "VideoGames",
+            "src1": "img/collection/img34_1.jpg",
+            "src2": "img/collection/img34_2.jpg"
+        },
+        {
+            "id": 35,
+            "name": "Tee Arcade",
+            "brand": "VideoGames",
+            "src1": "img/collection/img35_1.jpg",
+            "src2": "img/collection/img35_2.jpg"
+        },
+        {
+            "id": 36,
+            "name": "Tee Sonic",
+            "brand": "VideoGames",
+            "src1": "img/collection/img36_1.jpg",
+            "src2": "img/collection/img36_2.jpg"
+        },
+        {
+            "id": 37,
+            "name": "T-Shirt Coca-Cola",
+            "brand": "CocaCola",
+            "src1": "img/collection/img37_1.jpg",
+            "src2": "img/collection/img37_2.jpg"
+        },
+        {
+            "id": 38,
+            "name": "T-Shirt Coca-Cola",
+            "brand": "CocaCola",
+            "src1": "img/collection/img38_1.jpg",
+            "src2": "img/collection/img38_2.jpg"
+        },
+        {
+            "id": 39,
+            "name": "T-Shirt Coca-Cola",
+            "brand": "CocaCola",
+            "src1": "img/collection/img39_1.jpg",
+            "src2": "img/collection/img39_2.jpg"
         }
     ],
     "brand" : [
-        {  "id": 1, "name": "Jurassic Park" },
-        {  "id": 2, "name": "Coca-Cola" },
-        {  "id": 3, "name": "Marvel" },
-        {  "id": 4, "name": "Maui" },
-        {   "id": 5, "name": "Looney Tunes" },
-        {   "id": 6, "name": "Movies" },
-        {   "id": 7, "name": "Video Games" },
-        {   "id": 8, "name": "Kodak" },
-        {   "id": 9, "name": "Disney" },
-        {   "id": 10, "name": "Lego" },
-        {   "id": 11, "name": "Pop Culture" },
-        {   "id": 12, "name": "Rock" }
+        {
+          "id": 1,
+          "name": "Graphic Tees",
+          "description": "Graphic Tees, les t-shirts pour femme et homme Les t-shirts avec une touche nostalgique ou geek sont un must de n’importe quel placard. Faciles à combiner, ils dépoussièrent n’importe quel look et sont super tendance. Nous faisons revivre les icônes de la musique, des séries et de la culture populaire avec les nouveaux t-shirts pour femme et homme de TEES&TIGERS."
+        },
+        {
+          "id": 2,
+          "name": "CocaCola",
+          "description": "T-shirts Coca-Cola - Crée des combinaisons fraîches et estivales avec les t-shirts Coca-Cola, Fanta ou Sprite, parfaits pour égayer ta tenue avec ton bermuda ou jean favori."
+        },
+        {
+          "id": 3,
+          "name": "Marvel",
+          "description": "T-shirts Marvel | Pour les fans et fervents lecteurs de cet univers cinématographique, les t-shirts Marvel ou Avengers sont l’option parfaite pour apporter une touche spéciale à des vêtements plus simples."
+        },
+        {
+          "id": 4,
+          "name": "Maui",
+          "description": ""
+        },
+        {
+          "id": 5,
+          "name": "LooneyTunes",
+          "description": "T-shirts Looney TunesDrôles et casual, ne rate pas les t-shirts Looney Tunes avec tes personnages préférés : Bugs Bunny, Grosminet ou Taz."
+        },
+        {
+          "id": 6,
+          "name": "Movies",
+          "description": "Nous faisons revivre les icônes de la musique, des séries et de la culture populaire avec les nouveaux t-shirts pour femme et homme de TEES&TIGERS."
+        },
+        {
+          "id": 7,
+          "name": "VideoGames",
+          "description": "Nous faisons revivre les icônes de la musique, des séries et de la culture populaire avec les nouveaux t-shirts pour femme et homme de TEES&TIGERS."
+        },
+        {
+          "id": 8,
+          "name": "Kodak",
+          "description": ""
+        },
+        {
+          "id": 9,
+          "name": "Disney",
+          "description": "T-shirts Disney | Plonge dans tes souvenirs d’enfance et adopte le style naïf avec les t-shirts Disney. Associe-les avec une paire de jeans troués, une veste oversize ou une casquette pour donner de la personnalité à ton look nostalgique."
+        },
+        {
+          "id": 10,
+          "name": "Lego",
+          "description": "Trouvez les T-shirts Lego les plus nostalgiques. Disponibles pour femmes et pour hommes. T-shirts blancs ou noirs avec le logo Lego pour créer des looks tendance."
+        },
+        {
+          "id": 11,
+          "name": "PopCulture",
+          "description": "Nous faisons revivre les icônes de la musique, des séries et de la culture populaire avec les nouveaux t-shirts pour femme et homme de TEES&TIGERS."
+        },
+        {
+          "id": 12,
+          "name": "Music",
+          "description": "Nous faisons revivre les icônes de la musique, des séries et de la culture populaire avec les nouveaux t-shirts pour femme et homme de TEES&TIGERS."
+        }
     ]
 }

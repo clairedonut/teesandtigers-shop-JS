@@ -4,7 +4,7 @@ This project is a reproduction of a page with products listed on it.
 
 Main focus of this project: When clicking a brand-logo, the page automatically updates the head banner, introduction text and the products displayed to only show those related to that logo.
 
-[Original page here](https://www.pullandbear.com/fr/homme/vêtements/graphic-tees-c1030139007.html)
+The original page the reproduction is based on is available [here](https://www.pullandbear.com/fr/homme/vêtements/graphic-tees-c1030139007.html)
 
 
 The final version of the project is available here: [cookiesandwifi.ovh/teestigers](http://cookiesandwifi.ovh/teestigers/)
